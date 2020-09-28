@@ -20,8 +20,8 @@ function setup() {
 
 	paperball = new Paper(100,600);
 
-	dustbin2 = new Dustbin(300,600,20,100);
-	dustbin3 = new Dustbin(500,600,20,100);
+	dustbin2 = new Dustbin(300,670,20,100);
+	dustbin3 = new Dustbin(500,670,20,100);
 
 	ground = Bodies.rectangle(400,690,800,20, {isStatic : true});
 	World.add(world, ground);
